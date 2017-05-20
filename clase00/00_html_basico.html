@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Siempre incluir el tag <!DOCTYPE html5> como primera linea
+  para decirle al browser que vamos a estar utilizando html5.
+  El tag DOCTYPE solo se abre, no se cierra
+-->
+
+<!-- Todo el contenido HTML tiene que ir entre los tags <html></html> -->
+<html>
+
+<!-- El contenido de <head> no se ve en la seccion principal. Podemos incluir:
+  - Titulo de la pagina: <title></title>
+  - CSS: <style></style>
+  - JavaScript <script></script>
+-->
+<head>
+  <title>Este es el titulo de la pagina</title>
+
+  <!-- Dentro del <style> solo podemos poner CSS, sino vamos a tener errores!
+  -->
+  <style>
+    body {
+      background-color: brown;
+    }
+
+    h1, h2, h3 {
+      color: pink;
+    }
+
+    p {
+      color: white;
+    }
+  </style>
+
+  <!-- Dentro del <script> solo podemos poner JS, sino vamos a tener errores!
+  -->
+  <script>
+    window.alert("Hola!")
+  </script>
+</head>
+
+<!-- El contenido de la pagina esta dentro de <body> -->
+<body>
+  <!-- Tenemos distintos niveles de encabezados, h1 es el mas importante -->
+  <h1>Este es un encabezado h1</h1>
+  <h2>Este es un encabezado h2</h2>
+  <h3>Este es un encabezado h3</h3>
+
+  <!-- El texto comun generalmente se inserta en <p>
+    <p> ignora los saltos de linea que pongamos
+  -->
+  <p>Este es un parrafo</p>
+  <p>Este es otro parrafo que
+    en codigo html tiene saltos de linea,
+    pero no se ven cuando vemos
+    la pagina en el browser
+  </p>
+</body>
+</html>
