@@ -2,29 +2,31 @@
 <html>
 
 <head>
-  <title>el mate, carajo</title>
+  <title>El Mate</title>
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
   <div id="contenido">
     <header>
-      <h1>El mate</h1>
+      <div id="titulo">
+        <h1>El mate</h1>
+      </div>
       <nav>
-        <ul>
-          <li><a href="#">Sitios relacionados</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Acerca de</a></li>
-          <li><a href="#">Inicio</a></li>
-        </ul>
-      <div class="clear"></div>
+	      <div id="menu-header">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Sitios relacionados</a></li>
+          </ul>
+        </div>
+        <div class="clear-both"></div>
       </nav>
     </header>
     <main>
-      <h2>En cuanto a esta magistral bebida...</h2>
-
       <section>
-        <h3>Podemos destacar sus ingredientes imprescindibles:</h3>
+        <h2>Podemos destacar sus ingredientes imprescindibles</h2>
 
         <ul>
           <li>Mate</li>
@@ -36,7 +38,7 @@
       </section>
 
       <section>
-        <h3>Ademas su perfecta preparacion:</h3>
+        <h2>Ademas su perfecta preparacion</h2>
 
         <ol>
           <li>Tomamos el mate y le ponemos la yerba hasta la mitad</li>
@@ -49,45 +51,78 @@
       </section>
 
       <section>
-        <h3>Algunas imagenes de esta exquisita bebida</h3>
-        <img src="http://locosxelmate.com/wp-content/uploads/2014/08/Mate-cebado.jpg" alt="un esplendoroooso mate">
-        <!-- el tag img no debe cerrarse -->
+        <h2>Algunas imagenes de esta exquisita bebida</h2>
+
+        <div id="galeria">
+          <img src="images/mate00.jpg" alt="un esplendoroooso mate" class="imagen-galeria">
+          <img src="images/mate01.jpg" alt="un esplendoroooso mate" class="imagen-galeria">
+          <img src="images/mate02.jpg" alt="un esplendoroooso mate" class="imagen-galeria">
+          <img src="images/mate03.jpg" alt="un esplendoroooso mate" class="imagen-galeria">
+          <img src="images/mate04.jpg" alt="un esplendoroooso mate" class="imagen-galeria">
+          <img src="images/mate05.jpg" alt="un esplendoroooso mate" class="imagen-galeria">
+          <img src="images/mate06.jpg" alt="un esplendoroooso mate" class="imagen-galeria">
+          <img src="images/mate07.jpg" alt="un esplendoroooso mate" class="imagen-galeria">
+        </div>
       </section>
 
       <section>
-        <h3>Novedades</h3>
-        <article>
-          <h4><a href="#">Los beneficios del mate</a></h4>
-          <p>La yerba mate contiene cafeina en cantidades importantes
-            , asi como antioxidantes, potasio, aminoacidos y vitaminas.
-            Los principales beneficios de la yerba mate en la salud son...
-          </p>
-        </article>
+        <h2>Novedades</h2>
+        <div id="novedades">
+          <article>
+            <h3><a href="#">Los beneficios del mate</a></h3>
+            <p>La yerba mate contiene cafeina en cantidades importantes
+              , asi como antioxidantes, potasio, aminoacidos y vitaminas.
+              Los principales beneficios de la yerba mate en la salud son...
+            </p>
+          </article>
 
-        <article>
-          <h4><a href="#">El mate se puso de moda en europa</a></h4>
-          <p>El mate esta de moda en Europa, pero, al contrario de muchas otras tendencias
-             que luego se arraigan, creo que por estos pagos vamos
-             a seguir acompanando el mate con...
-          </p>
-        </article>
+          <article>
+            <h3><a href="#">El mate se puso de moda en europa</a></h3>
+            <p>El mate esta de moda en Europa, pero, al contrario de muchas otras tendencias
+               que luego se arraigan, creo que por estos pagos vamos
+               a seguir acompanando el mate con...
+            </p>
+          </article>
 
-        <article>
-          <h4><a href="#">Tipos de yerba mate. Como elegirlas?</a></h4>
-          <p>Con palo, sin palo, compuestas, organicas, para terere, barbacua
-            y saborizadas. En la gondolas de los supermercados, kioscos y
-            almacenes, vemos una amplia  variedad y tipos de yerba mate...
-          </p>
-        </article>
-      </section>
-
-      <section>
-        <p>Para mas informacion entrar a <a href="https://es.wikipedia.org/wiki/Mate_(infusi%C3%B3n)">este link</a></p>
+          <article>
+            <h3><a href="#">Tipos de yerba mate. Como elegirlas?</a></h3>
+            <p>Con palo, sin palo, compuestas, organicas, para terere, barbacua
+              y saborizadas. En la gondolas de los supermercados, kioscos y
+              almacenes, vemos una amplia  variedad y tipos de yerba mate...
+            </p>
+          </article>
+        </div>
+	<div class="clear-both"></div>
       </section>
     </main>
 
     <footer>
-      <p>Copyright 2017 Todos los derechos reservados..okey</p>
+      <div id="secciones-footer">
+        <section>
+          <h4>Contacto</h4>
+          <ul>
+            <li><span class="footer-subtitle">Direccion</span>: Av. Bla Ble Bli 4300, C1234567 CABA</li>
+            <li><span class="footer-subtitle">Telefono</span>: +54 11 1234-4321</li>
+            <li><span class="footer-subtitle">Email</span>: mundomatecarajo@carajo.com</li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>Lorem ipsum?</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        </section>
+
+        <section>
+          <h4>Seguinos!</h4>
+          <ul>
+            <li><img src="images/twitter.png"><a href="#">Twitter</a></li>
+            <li><img src="images/facebook.png"><a href="#">Facebook</a></li>
+            <li><img src="images/instagram.png"><a href="#">Instagram</a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="clear-both"></div>
+      <p id="copyright">Copyright 2017 Todos los derechos reservados. okey?</p>
     </footer>
   </div>
 </body>
