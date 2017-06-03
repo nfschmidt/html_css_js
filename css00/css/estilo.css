@@ -1,0 +1,43 @@
+body {
+  background-color: blue;
+  font-size: 15px;
+  font-family: sans-serif, arial
+}
+
+#content {
+  margin: 0 auto;
+  background-color: red;
+  width: 80%;
+}
+
+header {
+  background-color: orange;
+}
+
+#articulos {
+  background-color: green;
+  float: left;
+  width: 70%;
+}
+
+#articulos article {
+  background-color: violet;
+}
+
+#navegacion {
+  background-color: yellow;
+}
+
+.clear-both {
+  clear: both;
+}
+
+footer {
+  background-color: brown;
+}
+
+footer section {
+  float: left;
+  width: 30%;
+}
+

@@ -1,0 +1,32 @@
+html {
+  font-family: sans-serif;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.tarea-hecha {
+  text-decoration: line-through;
+}
+
+.boton {
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.boton-hecho {
+  background-color: #e1f7d5;
+}
+
+.boton-borrar {
+  background-color: #ffbdbd;
+}
+
+.boton-no-hecho {
+  background-color: #d3d3d3;
+}
